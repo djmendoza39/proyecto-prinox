@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500&family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montaga&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px; }
+
+li {
+  list-style: none; }
+
+.parrafo {
+  color: #7c7979;
+  font-size: 16px; }
+
+.line {
+  border-bottom: 1px solid rgba(204, 204, 204, 0.583); }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+img {
+  width: 100%;
+  object-fit: cover; }
+
+h3 {
+  color: #ff606c; }
+
+h4 {
+  font-size: 18px; }
+
+.bg-fondo-slide {
+  background-color: #2321219e; }
+
+.slide {
+  background-image: url(../img/img-bg-slide.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  height: auto;
+  width: 100%; }
+
+.estilo-p {
+  clip-path: polygon(8% 0, 100% 0%, 91% 97%, 0% 100%);
+  color: white;
+  background-color: #ee1f28;
+  width: 16rem;
+  display: inline-block;
+  text-align: center; }
+
+.estilo-title {
+  color: #fff;
+  font-size: 3.6rem;
+  font-weight: 600; }
+  .estilo-title.title--producer {
+    color: #000; }
+
+.title-parrafo {
+  color: #fff; }
+  .title-parrafo.parrafo--producer {
+    color: #7c7979; }
+
+.bi--icon-compra {
+  background-color: rgba(204, 204, 204, 0.551);
+  border-radius: 50%;
+  padding: 0.8rem;
+  color: #ff5f6d; }
+
+.btn-warning {
+  background: #ff5f6d;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffc371, #ff5f6d);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffc371, #ff5f6d);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  padding: 1rem;
+  width: 10rem; }
+
+.container-redes {
+  writing-mode: vertical-rl;
+  flex: 0;
+  justify-content: space-around; }
+
+.container-redes .row {
+  flex: 1; }
+
+.contenido-informacion p {
+  color: #7c7979;
+  font-size: 17px;
+  line-height: 200%; }
+
+.bi--informacion {
+  font-size: 40px;
+  color: #fc6b5e; }
+
+.container-bi-clipboard2-check {
+  background-color: #fc6b5e;
+  border-radius: .4rem;
+  width: 3rem;
+  height: 2.6rem;
+  display: grid;
+  place-content: center;
+  color: #fff;
+  font-size: 1.8rem; }
+
+.poligon {
+  background-color: #ee1f28;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 5rem;
+  height: 5rem; }
+
+.fondo-img-informacion {
+  background-image: url(../img/fono-circulos.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.estilo-border {
+  border: 1px solid #ccc;
+  border-radius: 10rem;
+  margin: 0 auto; }
+
+.separador {
+  background-color: #000;
+  height: 0.2rem;
+  border-radius: 0.4rem; }
+
+.bi--icon-play {
+  background-color: #f4eded;
+  font-size: 3.8rem; }
+
+.bi--estilo-circle {
+  color: #64daff; }
+
+.text-color {
+  color: #df8a5d; }
+
+.efecto-reflejo::after {
+  content: 'Design. Printing. Quality';
+  font-size: 5.6rem;
+  color: #ccc; }
+
+.estilo-quality {
+  font-size: 6rem;
+  font-family: 'Montaga', serif; }
+
+.estilos-texto-service {
+  background-color: #fff;
+  width: 12rem;
+  height: 3.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem; }
+
+.bg--hover {
+  background-color: #e8e2e2;
+  transition: all 200ms ease-in;
+  margin-left: .4rem; }
+
+.bg-pan-left {
+  animation: 8s ease 0s infinite normal both running bg-pan-left; }
+
+.bg-gradient-left {
+  background-image: linear-gradient(270deg, #f97880, #fe7756, #3a75fc);
+  background-size: 600% 100%; }
+
+@-webkit-keyframes bg-pan-left {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes bg-pan-left {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+.bg-pan-right {
+  animation: 8s ease 0s infinite normal both running bg-pan-right; }
+
+.bg-gradient-hor {
+  background-image: linear-gradient(270deg, #cc6aa5, #3e91cc, #2dcca7);
+  background-size: 600% 100%; }
+
+@-webkit-keyframes bg-pan-right {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+@keyframes bg-pan-right {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+.container-icons-start {
+  color: #ee1f28;
+  font-size: 1.6rem; }

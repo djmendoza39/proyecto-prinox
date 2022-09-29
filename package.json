@@ -1,0 +1,16 @@
+{
+  "name": "proyecto-prinox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch src/assets/scss -o src/assets/css"
+  },
+  "keywords": [],
+  "author": "Darwin Junior <djmendoza39@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
