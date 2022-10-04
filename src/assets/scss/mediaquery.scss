@@ -1,0 +1,48 @@
+//mediaQuery
+@media (max-width: 1024px) {
+  .container-redes,
+  .container-visitas,
+  .header__btn,
+  .container-office-address,
+  .figura-testimonio {
+    display: none;
+  }
+}
+
+//mediaquery titulos
+@media (max-width: 1024px) {
+  .estilo-title {
+    font-size: 3rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .estilo-title {
+    font-size: 2.6rem !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .estilo-title {
+    font-size: 2.4rem !important;
+  }
+  .estilo-quality {
+    font-size: 2.4rem !important;
+
+    &.efecto-reflejo::after {
+      font-size: 2.7rem !important;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .estilo-title {
+    font-size: 2rem !important;
+  }
+
+  .estilo-quality {
+    font-size: 2rem !important;
+
+    &.efecto-reflejo::after {
+      font-size: 2.5rem !important;
+    }
+  }
+}

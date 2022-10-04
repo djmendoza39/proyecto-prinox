@@ -1,0 +1,62 @@
+//efecto hover con keyframes
+.bg-pan-left {
+    animation: 8s ease 0s infinite normal both running bg-pan-left;
+  }
+  .bg-gradient-left {
+    background-image: linear-gradient(270deg, #f97880, #fe7756, #3a75fc);
+    background-size: 600% 100%;
+  }
+  
+  @-webkit-keyframes bg-pan-left {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes bg-pan-left {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .bg-pan-right {
+    animation: 8s ease 0s infinite normal both running bg-pan-right;
+  }
+  .bg-gradient-hor {
+    background-image: linear-gradient(270deg, #cc6aa5, #3e91cc, #2dcca7);
+    background-size: 600% 100%;
+  }
+  @-webkit-keyframes bg-pan-right {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes bg-pan-right {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

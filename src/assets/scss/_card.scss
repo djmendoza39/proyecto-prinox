@@ -1,0 +1,25 @@
+
+.container-card{
+    .image{
+        position: relative;
+        margin-top: 1rem;
+        & > a{
+            position: absolute;
+            bottom: 0;
+            
+            left: 0;
+            padding: 0.5rem;
+            background-color: antiquewhite;
+            transition: all 0.6s ease;
+            
+        }
+
+        & > a:hover{
+            transition: all 1s ease;
+        }
+    }
+
+   
+    
+}
+

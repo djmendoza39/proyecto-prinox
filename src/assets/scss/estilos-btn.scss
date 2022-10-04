@@ -1,0 +1,30 @@
+// estilos btn
+.bi--icon-compra {
+    background-color: rgba(204, 204, 204, 0.551);
+    border-radius: 50%;
+    padding: 0.8rem;
+    color: #ff5f6d;
+  }
+  
+  .btn-warning {
+    background: #ff5f6d; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #ffc371,
+      #ff5f6d
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #ffc371,
+      #ff5f6d
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    padding: 1rem;
+    width: 10rem;
+  
+    &.btn--footer {
+      height: 4rem;
+    }
+  }
